@@ -1,7 +1,7 @@
 # Olá, eu sou a Cecília! 
 
 ***
-💻 ** JR Business Intelligence Analyst**  
+💻 **JR Business Intelligence Analyst**  
 
 🎓 **Data Engineering Bootcamp** – *Data Girls*  
 
