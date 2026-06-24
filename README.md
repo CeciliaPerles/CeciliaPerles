@@ -5,7 +5,7 @@
 
 🎓 **Data Engineering Bootcamp** – *Data Girls*  
 
-🧠 *Currently learning* **Python**, **FastAPI** and **Data Modeling**  
+🧠 *Currently learning* **Python**, **dbt** and **Data Modeling**  
 
 📈 *Ask me about* **SQL**, **ETL**, and **Data Visualization**  
 
