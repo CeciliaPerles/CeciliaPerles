@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-label="Ilustração de um monitor com dashboard e um gatinho dormindo em cima">
+  <defs>
+    <linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F5F3FF"/>
+      <stop offset="1" stop-color="#E6ECFB"/>
+    </linearGradient>
+    <radialGradient id="pglow" cx="0.5" cy="0.45" r="0.5">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <style>.t { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }</style>
+  </defs>
+
+  <rect width="400" height="400" rx="28" fill="url(#pbg)"/>
+  <ellipse cx="200" cy="190" rx="190" ry="150" fill="url(#pglow)"/>
+
+  <!-- mesa -->
+  <rect x="30" y="318" width="340" height="10" rx="5" fill="#D6C4AE"/>
+  <rect x="30" y="324" width="340" height="4" rx="2" fill="#C2AD94"/>
+
+  <!-- monitor -->
+  <rect x="186" y="262" width="28" height="30" fill="#2F3A64"/>
+  <rect x="150" y="270" width="100" height="14" rx="4" fill="#2F3A64"/>
+  <rect x="120" y="284" width="160" height="12" rx="6" fill="#2F3A64"/>
+  <rect x="48" y="84" width="304" height="186" rx="14" fill="#2F3A64"/>
+  <rect x="60" y="96" width="280" height="162" rx="8" fill="#F8FAFC"/>
+
+  <!-- KPIs -->
+  <g>
+    <rect x="74" y="110" width="78" height="36" rx="6" fill="#E8EDF7"/>
+    <rect x="82" y="118" width="34" height="6" rx="3" fill="#94A3B8"/>
+    <rect x="82" y="130" width="54" height="9" rx="3" fill="#1E293B"/>
+    <rect x="161" y="110" width="78" height="36" rx="6" fill="#E8EDF7"/>
+    <rect x="169" y="118" width="34" height="6" rx="3" fill="#94A3B8"/>
+    <rect x="169" y="130" width="46" height="9" rx="3" fill="#E0A82E"/>
+    <rect x="248" y="110" width="78" height="36" rx="6" fill="#E8EDF7"/>
+    <rect x="256" y="118" width="34" height="6" rx="3" fill="#94A3B8"/>
+    <rect x="256" y="130" width="58" height="9" rx="3" fill="#4285F4"/>
+  </g>
+
+  <!-- barras -->
+  <rect x="74" y="156" width="130" height="90" rx="6" fill="#E8EDF7"/>
+  <rect x="88" y="206" width="18" height="30" rx="3" fill="#CD7F32"/>
+  <rect x="114" y="192" width="18" height="44" rx="3" fill="#9AA5B4"/>
+  <rect x="140" y="178" width="18" height="58" rx="3" fill="#E0A82E"/>
+  <rect x="166" y="166" width="18" height="70" rx="3" fill="#4285F4"/>
+
+  <!-- linha -->
+  <rect x="212" y="156" width="114" height="90" rx="6" fill="#E8EDF7"/>
+  <polyline points="224,228 246,210 266,218 288,188 314,172" fill="none" stroke="#4285F4" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="314" cy="172" r="5" fill="#E0A82E"/>
+
+  <!-- banco de dados -->
+  <g fill="#E8EDF7" stroke="#4285F4" stroke-width="2.5">
+    <path d="M300 288 v22 a22 7 0 0 0 44 0 v-22"/>
+    <ellipse cx="322" cy="288" rx="22" ry="7"/>
+    <path d="M300 299 a22 7 0 0 0 44 0" fill="none"/>
+  </g>
+
+  <!-- planta -->
+  <path d="M74 318 l6 -30 h28 l6 30 z" fill="#8B7BD8"/>
+  <path d="M94 288 C 84 268, 66 262, 60 250 C 78 250, 92 262, 94 280 Z" fill="#34C28A"/>
+  <path d="M94 288 C 100 266, 116 256, 128 252 C 124 270, 110 282, 96 286 Z" fill="#27A374"/>
+  <path d="M94 288 C 92 270, 94 252, 100 238 C 106 254, 102 272, 96 286 Z" fill="#3FD69B"/>
+
+  <!-- gatinho dormindo em cima do monitor -->
+  <path d="M316 80 C 336 84, 342 106, 333 130" stroke="#1A1A20" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path d="M234 86 C 230 64, 252 52, 278 52 C 304 52, 322 64, 320 86 Z" fill="#1A1A20"/>
+  <circle cx="242" cy="72" r="15" fill="#1A1A20"/>
+  <path d="M230 64 L229 49 L239 58 Z M245 58 L254 49 L255 64 Z" fill="#1A1A20"/>
+  <path d="M231.5 61 L231 53 L236.5 58 Z M247.5 58.5 L252.5 53 L253 61 Z" fill="#F4A6B8"/>
+  <path d="M242 69 C 238 73, 233 76, 234 80 C 236 84, 248 84, 250 80 C 251 76, 246 73, 242 69 Z" fill="#FFFFFF"/>
+  <path d="M233 69 q3 3 6 0 M245 69 q3 3 6 0" stroke="#C9CED6" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+  <path d="M240.2 75.5 L243.8 75.5 L242 77.5 Z" fill="#1A1A20"/>
+  <ellipse cx="254" cy="85" rx="6.5" ry="3.2" fill="#FFFFFF"/>
+  <ellipse cx="267" cy="85" rx="6.5" ry="3.2" fill="#FFFFFF"/>
+  <g class="t" font-weight="700" fill="#7C83A3">
+    <text x="262" y="44" font-size="15">z</text>
+    <text x="275" y="32" font-size="11">z</text>
+  </g>
+</svg>

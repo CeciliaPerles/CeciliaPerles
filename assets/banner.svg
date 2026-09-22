@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Cecília Perles, Analista de Dados Pleno">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1426"/>
+      <stop offset="1" stop-color="#1C1B4A"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#FFFFFF" fill-opacity="0.07"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8AB4F8" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#8AB4F8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="catglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .t { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      @media (prefers-reduced-motion: reduce) { .flow { display: none; } }
+    </style>
+  </defs>
+
+  <rect width="1280" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1280" height="320" rx="18" fill="url(#dots)"/>
+  <ellipse cx="970" cy="175" rx="330" ry="150" fill="url(#glow)"/>
+
+  <!-- nome e cargo -->
+  <text class="t" x="80" y="140" font-size="60" font-weight="700" fill="#FFFFFF">Cecília Perles</text>
+  <text class="t" x="82" y="188" font-size="28" fill="#C9D1D9">Analista de Dados Pleno</text>
+
+  <g class="t" font-size="19" font-weight="600" text-anchor="middle">
+    <rect x="80" y="220" width="138" height="38" rx="19" fill="#FF3621" fill-opacity="0.16" stroke="#FF3621" stroke-opacity="0.7"/>
+    <text x="149" y="245" fill="#FF8A73">Databricks</text>
+    <rect x="230" y="220" width="112" height="38" rx="19" fill="#E25A1C" fill-opacity="0.16" stroke="#E25A1C" stroke-opacity="0.7"/>
+    <text x="286" y="245" fill="#F59A6B">PySpark</text>
+    <rect x="354" y="220" width="76" height="38" rx="19" fill="#4285F4" fill-opacity="0.16" stroke="#4285F4" stroke-opacity="0.7"/>
+    <text x="392" y="245" fill="#8AB4F8">GCP</text>
+  </g>
+
+  <g transform="translate(960 182) scale(1.18) translate(-960 -160)">
+  <!-- pipeline: fonte -> bronze -> silver -> gold -> dashboard -->
+  <path d="M762 160 H1078" stroke="#8AB4F8" stroke-opacity="0.45" stroke-width="3" stroke-dasharray="2 9" stroke-linecap="round" fill="none"/>
+
+  <g class="flow" fill="#FFFFFF">
+    <circle r="4.5" opacity="0.9"><animateMotion dur="3s" repeatCount="indefinite" path="M762 160 H1078"/></circle>
+    <circle r="4.5" opacity="0.9"><animateMotion dur="3s" begin="1s" repeatCount="indefinite" path="M762 160 H1078"/></circle>
+    <circle r="4.5" opacity="0.9"><animateMotion dur="3s" begin="2s" repeatCount="indefinite" path="M762 160 H1078"/></circle>
+  </g>
+
+  <!-- fonte de dados -->
+  <g fill="#132045" stroke="#8AB4F8" stroke-width="2.5">
+    <path d="M712 130 v60 a28 10 0 0 0 56 0 v-60"/>
+    <ellipse cx="740" cy="130" rx="28" ry="10"/>
+    <path d="M712 150 a28 10 0 0 0 56 0 M712 170 a28 10 0 0 0 56 0" fill="none"/>
+  </g>
+
+  <!-- camadas medallion -->
+  <g class="t" font-size="20" font-weight="700" text-anchor="middle">
+    <circle cx="838" cy="160" r="28" fill="#CD7F32" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="2"/>
+    <text x="838" y="167" fill="#2A1605">B</text>
+    <circle cx="932" cy="160" r="28" fill="#B8C0CC" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="2"/>
+    <text x="932" y="167" fill="#1E2430">S</text>
+    <circle cx="1026" cy="160" r="28" fill="#F2C14E" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="2"/>
+    <text x="1026" y="167" fill="#3A2A00">G</text>
+  </g>
+  <g class="t" font-size="16" fill="#9AA4B2" text-anchor="middle">
+    <text x="740" y="232">fonte</text>
+    <text x="838" y="216">bronze</text>
+    <text x="932" y="216">silver</text>
+    <text x="1026" y="216">gold</text>
+    <text x="1144" y="232">insights</text>
+  </g>
+
+  <!-- dashboard -->
+  <rect x="1082" y="100" width="124" height="106" rx="12" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="2"/>
+  <g>
+    <rect x="1100" y="160" width="16" height="30" rx="3" fill="#CD7F32"/>
+    <rect x="1124" y="146" width="16" height="44" rx="3" fill="#B8C0CC"/>
+    <rect x="1148" y="132" width="16" height="58" rx="3" fill="#F2C14E"/>
+    <rect x="1172" y="118" width="16" height="72" rx="3" fill="#8AB4F8"/>
+  </g>
+
+  <!-- gatinho sentado no dashboard -->
+  <g transform="translate(1144 100) scale(1.3)">
+    <circle cx="0" cy="-34" r="42" fill="url(#catglow)"/>
+    <g>
+      <path d="M15 -5 C31 -6 37 -20 31 -34" stroke="#1A1A20" stroke-width="6.5" stroke-linecap="round" fill="none"/>
+      <animateTransform class="flow" attributeName="transform" type="rotate" values="0 15 -5; 14 15 -5; 0 15 -5; -6 15 -5; 0 15 -5" dur="3s" repeatCount="indefinite"/>
+    </g>
+    <path d="M-19 0 C-23 -16 -15 -32 0 -32 C15 -32 23 -16 19 0 Z" fill="#1A1A20"/>
+    <path d="M-7 0 C-9 -10 -5 -22 0 -24 C5 -22 9 -10 7 0 Z" fill="#FFFFFF"/>
+    <ellipse cx="-8" cy="-1.5" rx="5.5" ry="3.2" fill="#FFFFFF"/>
+    <ellipse cx="8" cy="-1.5" rx="5.5" ry="3.2" fill="#FFFFFF"/>
+    <circle cx="0" cy="-44" r="16" fill="#1A1A20"/>
+    <path d="M-15 -48 L-13 -66 L-3 -58 Z M15 -48 L13 -66 L3 -58 Z" fill="#1A1A20"/>
+    <path d="M-12.5 -52 L-11.6 -62 L-6 -57.5 Z M12.5 -52 L11.6 -62 L6 -57.5 Z" fill="#F4A6B8"/>
+    <path d="M0 -52 C-2 -46 -9 -42 -8 -36 C-6 -31 6 -31 8 -36 C9 -42 2 -46 0 -52 Z" fill="#FFFFFF"/>
+    <ellipse cx="-6.4" cy="-46" rx="3" ry="3.4" fill="#CFE36B">
+      <animate attributeName="ry" values="3.4;3.4;0.4;3.4" keyTimes="0;0.9;0.95;1" dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="6.4" cy="-46" rx="3" ry="3.4" fill="#CFE36B">
+      <animate attributeName="ry" values="3.4;3.4;0.4;3.4" keyTimes="0;0.9;0.95;1" dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="-6.4" cy="-46" rx="1" ry="2.6" fill="#111111">
+      <animate attributeName="ry" values="2.6;2.6;0.3;2.6" keyTimes="0;0.9;0.95;1" dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="6.4" cy="-46" rx="1" ry="2.6" fill="#111111">
+      <animate attributeName="ry" values="2.6;2.6;0.3;2.6" keyTimes="0;0.9;0.95;1" dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+    <path d="M-2 -38.5 L2 -38.5 L0 -36.3 Z" fill="#1A1A20"/>
+    <path d="M0 -36.3 q-1.5 2 -3 1 M0 -36.3 q1.5 2 3 1" stroke="#6B7280" stroke-width="0.8" fill="none" stroke-linecap="round"/>
+    <g stroke="#E5E7EB" stroke-width="0.8" stroke-opacity="0.85" stroke-linecap="round">
+      <path d="M-5 -37 L-18 -39 M-5 -35.5 L-18 -33.5 M5 -37 L18 -39 M5 -35.5 L18 -33.5"/>
+    </g>
+  </g>
+  </g>
+</svg>
