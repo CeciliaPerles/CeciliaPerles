@@ -4,10 +4,6 @@
 
 ---
 
-<table>
-<tr>
-<td width="70%" valign="middle">
-
 ## ✨ Sobre mim
 ### Olá, eu sou a Cecília! 👋
 
@@ -27,13 +23,6 @@ Também sou voluntária de Pesquisa e Desenvolvimento na **Data Girls**.
 - Cursos: Bootcamp [RE]Start: Dados além da técnica (Data Girls) · Imersão Dados com Python · Storytelling para Negócios
 
 </details>
-
-</td>
-<td width="30%" align="center">
-<a name="img-avatar"><img src="./assets/avatar.png" alt="Foto da Cecília" width="100%"></a>
-</td>
-</tr>
-</table>
 
 ---
 
